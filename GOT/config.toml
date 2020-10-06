@@ -1,0 +1,5 @@
+baseURL = "https://yourmovienight.netlify.app/"
+languageCode = "en-us"
+title = "GOT"
+author = "Anthony & Roger"
+theme = "GOTNight"

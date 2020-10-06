@@ -1,0 +1,7 @@
+- item: Movies
+  url: "movie"
+- item: Actors
+  url: "actor"
+- item: Directors
+  url: "director"
+
