@@ -9,12 +9,11 @@
   {{- end }}
 {{- end }}
 {{- $flag := "false" }}
+
+{{- if eq .Params.title "Home"}}	
+		{{- partial "home" . }}	
+{{- else }}
 <ul class='posts wrap' id = 'posts'>  
-	{{- if eq .Params.title "Home"}}
-		{{- range (.Paginate $pages).Pages }}
-		{{- partial "home" . }}
-		{{- end }}		
-	{{- end }}
 	{{- if eq .Params.title "Character" }}
 	  {{- range (.Paginate $pages).Pages }}
 		{{- partial "character" . }}
@@ -30,8 +29,9 @@
 		{{- partial "house" . }}
 	  {{- end }}	 
 	{{- end }}  
-
 </ul>
+{{- end }}
+
 {{- template "_internal/pagination.html" . }}
 
 
