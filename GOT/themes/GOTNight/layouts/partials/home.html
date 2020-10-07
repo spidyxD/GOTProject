@@ -7,17 +7,9 @@
 {{- $image := $scratch.Get "image" }}
 {{- $bg := (path.Join "images" $image | absLangURL) }}
 
-{{- if .Params.characterId }}
-
 <div class = 'home'>
-    <div class = 'home_meta'>
-   
-    </div>
-    <h3 class = 'post_link'>
-      <a href='{{ .Permalink }}'>{{ .Title  }}</a>
-    </h3>
-    <p class = 'pale'>{{ .Summary | truncate 90 }}</p>
-  </div>
+<h1> Welcome to the GOT site </h1>
+ </div>
 
 
   
