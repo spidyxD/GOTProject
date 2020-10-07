@@ -1,5 +1,5 @@
 baseURL = "https://gotData.netlify.app/"
 languageCode = "en-us"
-title = "GOT"
+title = "Geek GOT"
 author = "Roger & Anthony"
-theme = "MovieNight"
+theme = "GOTNight"
