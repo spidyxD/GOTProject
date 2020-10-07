@@ -1,5 +1,0 @@
----
-tagId: {{ replace .Name "-" " " }}
-url:
-
----

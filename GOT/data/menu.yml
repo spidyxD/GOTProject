@@ -1,0 +1,7 @@
+- item: Characters
+  url: "character"
+- item: Battles
+  url: "battle"
+- item: Houses
+  url: "house"
+
