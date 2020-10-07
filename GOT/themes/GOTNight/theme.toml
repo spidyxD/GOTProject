@@ -3,12 +3,12 @@
 
 name = "GOTNight"
 license = "MIT"
-licenselink = "https://github.com/spidyxD/YourMovie/tree/master/themes/MovieNight/LICENSE"
+licenselink = "https://github.com/spidyxD/GOTProject/tree/master/themes/MovieNight/LICENSE"
 description = ""
-homepage = "https://github.com/spidyxD/YourMovie/tree/master/themes/MovieNight"
+homepage = "https://github.com/spidyxD/GOTProject/tree/master/themes/MovieNight"
 min_version = "0.41.0"
-tags = ["library", "movie", "personal","modern", "accessibility", "font awesome"]
-features = ["blog", "staticman", "simple", "dark", "minimalist", "fast"]
+tags = ["library", "got", "geek","modern", "accessibility", "font awesome"]
+features = ["web", "staticman", "simple", "dark", "minimalist", "fast"]
 [author]
   name = "Roger Amador"
   homepage = ""
