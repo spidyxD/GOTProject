@@ -12,22 +12,22 @@
 <ul class='posts wrap' id = 'posts'>  
 	{{- if eq .Params.title "Home"}}
 		{{- range (.Paginate $pages).Pages }}
-		{{- partial "movie" . }}
+		{{- partial "home" . }}
 		{{- end }}		
 	{{- end }}
-	{{- if eq .Params.title "Movie" }}
+	{{- if eq .Params.title "Character" }}
 	  {{- range (.Paginate $pages).Pages }}
-		{{- partial "movie" . }}
+		{{- partial "character" . }}
 	  {{- end }}
 	{{- end }}  
-	{{- if eq .Params.title "Director" }}  
+	{{- if eq .Params.title "Battle" }}  
 	  {{- range (.Paginate $pages).Pages }}
-		{{- partial "director" . }}
+		{{- partial "battle" . }}
 	  {{- end }}
 	{{- end }}  
-	{{- if eq .Params.title "Actor" }}  
+	{{- if eq .Params.title "House" }}  
 	  {{- range (.Paginate $pages).Pages }}
-		{{- partial "actor" . }}
+		{{- partial "house" . }}
 	  {{- end }}	 
 	{{- end }}  
 
