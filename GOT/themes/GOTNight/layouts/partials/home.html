@@ -8,12 +8,7 @@
 {{- $bg := (path.Join "images" $image | absLangURL) }}
 
 <div class = 'home'>
-<p> Website for geeks made by geeks. </p>
-	<div class = 'panel-menu'>
-		{{- range .Site.Data.menu }}
-		  <a href = '{{ .url | absURL }}' class = 'nav_item'>{{ .item }}</a>	  
-		{{- end }}
-	</div>
+<h2> Website for geeks made by geeks. </h2>
 </div>
 
 
