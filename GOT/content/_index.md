@@ -1,6 +1,6 @@
 ---
-title: GOT for geeks
+Title: Home
 ---
 
-Website for geeks made by geeks.
+## Website for geeks made by geeks.
 
