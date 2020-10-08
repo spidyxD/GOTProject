@@ -1,5 +1,5 @@
 ---
-battleId: {{ replace .Name "-" " " }}
+battleId: 
 Title: 
 year:
 attacker_king: 

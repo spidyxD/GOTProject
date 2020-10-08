@@ -1,5 +1,5 @@
 ---
-characterId: {{ replace .Name "-" " " }}
+characterId: 
 Title: 
 culture:
 dateOfBirth:

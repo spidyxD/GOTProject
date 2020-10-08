@@ -1,5 +1,5 @@
 ---
-houseId: {{ replace .Name "-" " " }}
+houseId: 
 Title: 
 House_name:
 Region:
