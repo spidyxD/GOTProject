@@ -5,7 +5,7 @@
 <div class = 'icon-bar'>
 		{{- range .Site.Data.menu }}
 			{{- if eq .item "Home"}}
-				<a href = 'https://geekgot.netlify.app/' class = 'nav_item'>{{ .item }}</a>
+				
 			{{- else }}
 				<a href = '{{ .url | absURL }}' class = 'nav_item'>{{ .item }}</a>
 			{{- end }}
