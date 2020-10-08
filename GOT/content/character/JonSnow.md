@@ -1,5 +1,5 @@
 ---
-characterId: {{ replace .Name "-" " " }}
+characterId: JonSnow
 Title: Jon Snow   
 role: Lord Commander of the Night's Watch
 culture: Northmen
