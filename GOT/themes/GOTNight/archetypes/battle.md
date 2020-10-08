@@ -9,5 +9,6 @@ defender_principal:
 battle_type:   
 attacker_commander: 
 defender_commander:  
-location:                                                                                                                                                                                                                                                                         |
+location:     
+image:                                                                                                                                                                                                                                                                    |
 ---

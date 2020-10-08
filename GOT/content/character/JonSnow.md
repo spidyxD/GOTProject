@@ -7,4 +7,5 @@ dateOfBirth: 283
 DateoFdeath:
 house: House Stark                                   
 age: 22   
+image: JonSnow.jpg
 ---

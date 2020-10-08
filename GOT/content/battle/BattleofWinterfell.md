@@ -9,5 +9,6 @@ defender_principal: Greyjoy
 battle_type: ambush  
 attacker_commander: Stark
 defender_commander: Bolton 
-location: Winterfell                                                                                                                                                                                                                                                                        |
+location: Winterfell  
+image: battle.jpg                                                                                                                                                                                                                                                                      |
 ---
