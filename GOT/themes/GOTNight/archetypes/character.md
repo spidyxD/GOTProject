@@ -1,11 +1,11 @@
 ---
 characterId: 
 Title: 
+role:
 culture:
 dateOfBirth:
 DateoFdeath:
 house:                                   
 age: 
-image: 
-role:  
+image:   
 ---
