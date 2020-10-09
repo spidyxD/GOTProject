@@ -43,6 +43,20 @@
 	  <h1 class='post_title'>{{ .Title }}</h1>
 	</section>
 	<div class = 'post'>
+	<p>
+	This battle is happened in {{ .Params.year }} and was located in {{ .Params.location }}.<br>
+	<br>
+	<br>
+	Other details about {{ .Title }} battle:
+				<ul>
+					<li>Attacker king: {{ .Params.attacker_king }} </li>
+					<li>Attacker principal: {{ .Params.attacker_principal }} </li>
+					<li>Defender principal: {{ .Params.defender_principal }} </li>
+					<li>Battle type: {{ .Params.battle_type }} </li>
+					<li>Attacker commander: {{ .Params.attacker_commander }} </li>
+					<li>Defender commander: {{ .Params.defender_commander }}  </li>
+				</ul>
+	</p>		
 	  <article class='post_content'>
 		{{- .Content }}
 		<div class = 'post_extra'>
