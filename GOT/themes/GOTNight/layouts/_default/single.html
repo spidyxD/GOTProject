@@ -19,8 +19,8 @@
 		  <br>
 			Other details about {{ .Title }}: 
 				<ul>
-				<li>Date Of Birth {{- if .Params.dateOfBirth }}{{ .Params.dateOfBirth }}{{- else}} Still alive {{- end }}</li>
-				<li>Date of Death: {{ .Params.DateoFdeath }}</li>
+				<li>Date Of Birth: {{ .Params.dateOfBirth }} </li>
+				<li>Date of Death: {{- if .Params.DateoFdeath }} {{ .Params.DateoFdeath }} {{- else}} Still alive {{- end }}</li>
 				<li>Age: {{ .Params.age}}</li>
 				<li>Culture: {{ .Params.culture }}</li>
 				</ul>
