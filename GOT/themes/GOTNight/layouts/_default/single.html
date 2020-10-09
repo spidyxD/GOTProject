@@ -93,9 +93,7 @@
 	  {{- if .Site.Params.Staticman }}
 		{{- partial "comments" . }}
 	  {{- end }}
-	  <aside>
-		{{- partial "aside" . }}
-	  </aside>
+	 
 	</div>	
 {{- end }}
 <script src = '{{ absURL "js/autosize.min.js" }}'></script>
