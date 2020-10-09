@@ -5,5 +5,7 @@ culture:
 dateOfBirth:
 DateoFdeath:
 house:                                   
-age:   
+age: 
+image: 
+role:  
 ---
