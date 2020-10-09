@@ -1,4 +1,6 @@
-<h2> Website for geeks made by geeks. </h2>
+
+{{- if eq .Params.title "Home"}}	
+		<h2> Website for geeks made by geeks. </h2>
 <div>
 	<img src = '{{ absURL "images/got.jpg" }}' alt = ''>
 </div>
@@ -36,3 +38,6 @@
   background-color: #4CAF50;
 }
 </style>
+{{- else }}
+
+
