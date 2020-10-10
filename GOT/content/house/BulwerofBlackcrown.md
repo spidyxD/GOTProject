@@ -2,5 +2,5 @@
 houseId: BulwerofBlackcrown
 Title: Bulwer of Blackcrown
 Region: Reach
-image: BulwerofBlackcrown.jpg
+image: house.jpg
 ---

@@ -2,5 +2,5 @@
 houseId: Cole
 Title: Cole
 Region: Stormlands
-image: Cole.jpg
+image: house.jpg
 ---

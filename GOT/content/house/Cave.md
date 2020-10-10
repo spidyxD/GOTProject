@@ -2,5 +2,5 @@
 houseId: Cave
 Title: Cave
 Region: Crownlands (Crackclaw Point)
-image: Cave.jpg
+image: house.jpg
 ---

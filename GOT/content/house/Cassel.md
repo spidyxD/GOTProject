@@ -2,5 +2,5 @@
 houseId: Cassel
 Title: Cassel
 Region: North
-image: Cassel.jpg
+image: house.jpg
 ---

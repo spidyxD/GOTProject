@@ -2,5 +2,5 @@
 houseId: Chambers
 Title: Chambers
 Region: Riverlands
-image: Chambers.jpg
+image: house.jpg
 ---

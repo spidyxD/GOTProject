@@ -2,5 +2,5 @@
 houseId: Chelsted
 Title: Chelsted
 Region: Crownlands
-image: Chelsted.jpg
+image: house.jpg
 ---

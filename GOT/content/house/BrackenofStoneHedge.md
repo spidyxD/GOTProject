@@ -2,5 +2,5 @@
 houseId: BrackenofStoneHedge
 Title: Bracken of Stone Hedge
 Region: Riverlands
-image: BrackenofStoneHedge.jpg
+image: house.jpg
 ---

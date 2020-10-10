@@ -2,5 +2,5 @@
 houseId: Conklyn
 Title: Conklyn
 Region: Reach
-image: Conklyn.jpg
+image: house.jpg
 ---

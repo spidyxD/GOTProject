@@ -2,5 +2,5 @@
 houseId: Bridges
 Title: Bridges
 Region: Reach
-image: Bridges.jpg
+image: house.jpg
 ---

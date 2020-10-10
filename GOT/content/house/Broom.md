@@ -2,5 +2,5 @@
 houseId: Broom
 Title: Broom
 Region: Westerlands
-image: Broom.jpg
+image: house.jpg
 ---
