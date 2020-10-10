@@ -8,7 +8,7 @@ attacker_principal: Baratheon
 defender_principal: Baratheon
 battle_type: siege
 attacker_commander: StannisBaratheon,DavosSeaworth
-battle_type: RenlyBaratheon,CortnayPenrose,LorasTyrell,RandyllTarly,MathisRowan
+defender_commander: RenlyBaratheon,CortnayPenrose,LorasTyrell,RandyllTarly,MathisRowan
 location: Storm's End
 image: battle.jpg
 ---

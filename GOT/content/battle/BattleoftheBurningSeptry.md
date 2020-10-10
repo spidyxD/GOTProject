@@ -8,7 +8,7 @@ attacker_principal: BrotherhoodwithoutBanners
 defender_principal: BraveCompanions
 battle_type: pitched battle
 attacker_commander: 
-battle_type: 
+defender_commander: 
 location: 
 image: battle.jpg
 ---

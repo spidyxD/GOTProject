@@ -1,14 +1,14 @@
 ---
-battleId: BattleofWinterfell 
-Title: Battle of Winterfell 
-year: 1453
-attacker_king: Balon/Euron Greyjoy
-defender_king: Robb Stark
-attacker_principal: 
-defender_principal: Greyjoy     
-battle_type: ambush  
-attacker_commander: Stark
-defender_commander: Bolton 
-location: Winterfell  
-image: battle.jpg                                                                                                                                                                                                                                                                      |
+battleId: BattleofWinterfell
+Title: Battle of Winterfell
+year: 299
+attacker_king: BalonGreyjoy
+defender_king: RobbStark
+attacker_principal: Greyjoy
+defender_principal: Stark
+battle_type: ambush
+attacker_commander: TheonGreyjoy
+defender_commander: BranStark
+location: Winterfell
+image: battle.jpg
 ---

@@ -8,7 +8,7 @@ attacker_principal: Freefolk
 defender_principal: Night'sWatch
 battle_type: siege
 attacker_commander: ManceRayder,TormundGiantsbane,HarmaDogshead,MagnarStyr,Varamyr
-battle_type: StannisBaratheon,JonSnow,DonalNoye,CotterPyke
+defender_commander: StannisBaratheon,JonSnow,DonalNoye,CotterPyke
 location: Castle Black
 image: battle.jpg
 ---

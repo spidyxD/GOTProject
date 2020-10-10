@@ -8,7 +8,7 @@ attacker_principal: BraveCompanions
 defender_principal: 
 battle_type: razing
 attacker_commander: Rorge
-battle_type: 
+defender_commander: 
 location: Saltpans
 image: battle.jpg
 ---
