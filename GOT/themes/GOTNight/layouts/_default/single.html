@@ -14,7 +14,7 @@
 		</section>
 		<div class = 'post'>
 		  <article class='post_content'>
-		  <p style="text-align: center;">This character has the role of {{ .Params.role }} and belongs to the house of <a href="https://geekgot.netlify.app/house/{{ trim .Params.house '-' }}/">{{ .Params.house }}.</a><br> 
+		  <p style="text-align: center;">This character has the role of {{ .Params.role }} and belongs to the house of <a href="https://geekgot.netlify.app/house/{{- .Params.house -}}/">{{ .Params.house }}.</a><br> 
 		  <br>
 		  <br>
 			Other details about {{ .Title }}: 
