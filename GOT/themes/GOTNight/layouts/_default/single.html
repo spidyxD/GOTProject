@@ -14,7 +14,7 @@
 		</section>
 		<div class = 'post'>
 		  <article class='post_content'>
-		  <p style="text-align: center;">This character has the role of {{ .Params.role }} and belongs to the house of {{ .Params.house }}.<br> 
+		  <p style="text-align: center;">This character has the role of {{ .Params.role }} and belongs to the house of <a href="https://geekgot.netlify.app/house/{{ .Params.house }}/">{{ .Params.house }}.</a><br> 
 		  <br>
 		  <br>
 			Other details about {{ .Title }}: 
@@ -93,7 +93,9 @@
 	  {{- if .Site.Params.Staticman }}
 		{{- partial "comments" . }}
 	  {{- end }}
-	 
+	  <aside>
+		{{- partial "aside" . }}
+	  </aside>
 	</div>	
 {{- end }}
 <script src = '{{ absURL "js/autosize.min.js" }}'></script>
