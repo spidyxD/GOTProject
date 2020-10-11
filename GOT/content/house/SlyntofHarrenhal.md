@@ -1,6 +1,6 @@
 ---
 houseId: SlyntofHarrenhal
 Title: Slynt of Harrenhal
-Region: "Crownlands (origin)
+Region: Crownlands (origin)
 image: house.jpg
 ---
