@@ -2,13 +2,19 @@
 battleId: BattleofCastleBlack
 Title: Battle of Castle Black
 year: 300
-attacker_king: StannisBaratheon
-defender_king: ManceRayder
-attacker_principal: Freefolk
-defender_principal: Night'sWatch
+attacker_king: Stannis Baratheon
+attacker_kingID: StannisBaratheon
+defender_king: Mance Rayder
+defender_kingID: ManceRayder
+attacker_principal: Free folk
+attacker_principalID: Freefolk
+defender_principal: Night's Watch
+defender_principalID: Night'sWatch
 battle_type: siege
-attacker_commander: ManceRayder,TormundGiantsbane,HarmaDogshead,MagnarStyr,Varamyr
-defender_commander: StannisBaratheon,JonSnow,DonalNoye,CotterPyke
+attacker_commander: Mance Rayder
+attacker_commanderID: ManceRayder
+defender_commander: Stannis Baratheon
+defender_commanderID: StannisBaratheon
 location: Castle Black
 image: battle.jpg
 ---

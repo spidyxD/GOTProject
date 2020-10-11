@@ -1,6 +1,6 @@
 ---
-houseId: StarkofWinterfell     
-Title: Stark of Winterfell     
+houseId: StarkofWinterfell
+Title: Stark of Winterfell
 Region: North
-image: StarkofWinterfell.jpg 
+image: house.jpg
 ---

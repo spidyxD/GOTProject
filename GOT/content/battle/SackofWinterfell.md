@@ -2,13 +2,19 @@
 battleId: SackofWinterfell
 Title: Sack of Winterfell
 year: 299
-attacker_king: JoffreyBaratheon
-defender_king: RobbStark
-attacker_principal: Bolton
-defender_principal: Stark
+attacker_king: Joffrey Baratheon
+attacker_kingID: JoffreyBaratheon
+defender_king: Robb Stark
+defender_kingID: RobbStark
+attacker_principal: Bolton of Winterfell
+attacker_principalID: BoltonofWinterfell
+defender_principal: Stark of Winterfell
+defender_principalID: StarkofWinterfell
 battle_type: ambush
-attacker_commander: RamsaySnow,TheonGreyjoy
-defender_commander: RodrikCassel,CleyCerwyn,LeobaldTallhart
+attacker_commander: Ramsay Snow
+attacker_commanderID: RamsaySnow
+defender_commander: Rodrik Cassel
+defender_commanderID: RodrikCassel
 location: Winterfell
 image: battle.jpg
 ---

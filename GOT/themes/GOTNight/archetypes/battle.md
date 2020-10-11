@@ -3,12 +3,18 @@ battleId:
 Title: 
 year:
 attacker_king: 
-defender_king:
-attacker_principal:
-defender_principal:      
-battle_type:   
+attacker_kingID: 
+defender_king: 
+defender_kingID: 
+attacker_principal: 
+attacker_principalID: 
+defender_principal: 
+defender_principalID: 
+battle_type: 
 attacker_commander: 
-defender_commander:  
+attacker_commanderID: 
+defender_commander: 
+defender_commanderID: 
 location:     
 image:                                                                                                                                                                                                                                                                    |
 ---

@@ -2,13 +2,19 @@
 battleId: BattleofTorrhen'sSquare
 Title: Battle of Torrhen's Square
 year: 299
-attacker_king: RobbStark
-defender_king: BalonGreyjoy
-attacker_principal: Stark
-defender_principal: Greyjoy
+attacker_king: Robb Stark
+attacker_kingID: RobbStark
+defender_king: Balon Greyjoy
+defender_kingID: BalonGreyjoy
+attacker_principal: Stark of Winterfell
+attacker_principalID: StarkofWinterfell
+defender_principal: Greyjoy of Pyke
+defender_principalID: GreyjoyofPyke
 battle_type: pitched battle
-attacker_commander: RodrikCassel,CleyCerwyn
-defender_commander: DagmerCleftjaw
+attacker_commander: Rodrik Cassel
+attacker_commanderID: RodrikCassel
+defender_commander: Dagmer Cleftjaw
+defender_commanderID: DagmerCleftjaw
 location: Torrhen's Square
 image: battle.jpg
 ---

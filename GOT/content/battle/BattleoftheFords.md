@@ -2,13 +2,19 @@
 battleId: BattleoftheFords
 Title: Battle of the Fords
 year: 299
-attacker_king: JoffreyBaratheon
-defender_king: RobbStark
-attacker_principal: Lannister
-defender_principal: Tully
+attacker_king: Joffrey Baratheon
+attacker_kingID: JoffreyBaratheon
+defender_king: Robb Stark
+defender_kingID: RobbStark
+attacker_principal: Lannister of Casterly Rock
+attacker_principalID: LannisterofCasterlyRock
+defender_principal: Tully of Riverrun
+defender_principalID: TullyofRiverrun
 battle_type: pitched battle
-attacker_commander: TywinLannister,FlementBrax,GregorClegane,AddamMarbrand,LyleCrakehall,LeoLefford
-defender_commander: EdmureTully,JasonMallister,KarylVance
+attacker_commander: Tywin Lannister
+attacker_commanderID: TywinLannister
+defender_commander: Edmure Tully
+defender_commanderID: EdmureTully
 location: Red Fork
 image: battle.jpg
 ---
