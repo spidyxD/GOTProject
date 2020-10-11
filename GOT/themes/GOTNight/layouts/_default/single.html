@@ -47,21 +47,30 @@
 	This battle is happened in {{ .Params.year }} and was located in {{ .Params.location }}.<br>
 	<br>
 	<br>
-	Other details about {{ .Title }} battle:		
-					<h3>Attacker king:</h3> 
+	Other details about {{ .Title }} battle:
+					<table>	
+					<tr><td><b>Attacker king:</b></td><td>
 					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.attacker_king " " }}/'>{{ .Params.attacker_king }}</a></p>
-					<h3>Defender king:</h3> 
+					</td></tr>
+					<tr><td><b>Defender king:</b></td><td>
 					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.defender_king " " }}/'>{{ .Params.defender_king }}</a></p>
-					<h3>Attacker principal:</h3> 
+					</td></tr>
+					<tr><td><b>Attacker principal:</b></td><td>
 					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.attacker_principal " " }}/'>{{ .Params.attacker_principal }}</a></p>
-					<h3>Defender principal:</h3> 
+					</td></tr>
+					<tr><td><b>Defender principal:</b></td><td>
 					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.defender_principal " " }}/'>{{ .Params.defender_principal }}</a></p>
-					<h3>Battle type:</h3> 
+					</td></tr>
+					<tr><td><b>Battle type:</b></td><td>
 					<p>{{ .Params.battle_type }}</p>
-					<h3>Attacker commander:</h3> 
+					</td></tr>
+					<tr><td><b>Attacker commander:</b></td><td>
 					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.attacker_commander " " }}/'>{{ .Params.attacker_commander }}</a></p>
-					<h3>Defender commander:</h3> 
+					</td></tr>
+					<tr><td><b>Defender commander:</b></td><td>
 					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.defender_commander " " }}/'>{{ .Params.defender_commander }}</a></p>
+					</td></tr>
+					</table>
 	</p>		
 	  <article class='post_content'>
 		{{- .Content }}
