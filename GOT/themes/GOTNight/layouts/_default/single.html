@@ -50,25 +50,25 @@
 	Other details about {{ .Title }} battle:
 					<table>	
 					<tr><td><b>Attacker king:</b></td><td>
-					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.attacker_king " " }}/'>{{ .Params.attacker_king }}</a></p>
+					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ lower .Params.attacker_king }}/'>{{ .Params.attacker_king }}</a></p>
 					</td></tr>
 					<tr><td><b>Defender king:</b></td><td>
-					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.defender_king " " }}/'>{{ .Params.defender_king }}</a></p>
+					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ lower .Params.defender_king }}/'>{{ .Params.defender_king }}</a></p>
 					</td></tr>
 					<tr><td><b>Attacker principal:</b></td><td>
-					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.attacker_principal " " }}/'>{{ .Params.attacker_principal }}</a></p>
+					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ lower .Params.attacker_principal }}/'>{{ .Params.attacker_principal }}</a></p>
 					</td></tr>
 					<tr><td><b>Defender principal:</b></td><td>
-					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.defender_principal " " }}/'>{{ .Params.defender_principal }}</a></p>
+					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ lower .Params.defender_principal }}/'>{{ .Params.defender_principal }}</a></p>
 					</td></tr>
 					<tr><td><b>Battle type:</b></td><td>
 					<p>{{ .Params.battle_type }}</p>
 					</td></tr>
 					<tr><td><b>Attacker commander:</b></td><td>
-					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.attacker_commander " " }}/'>{{ .Params.attacker_commander }}</a></p>
+					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ lower .Params.attacker_commander }}/'>{{ .Params.attacker_commander }}</a></p>
 					</td></tr>
 					<tr><td><b>Defender commander:</b></td><td>
-					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.defender_commander " " }}/'>{{ .Params.defender_commander }}</a></p>
+					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ lower .Params.defender_commander }}/'>{{ .Params.defender_commander }}</a></p>
 					</td></tr>
 					</table>
 	</p>		
