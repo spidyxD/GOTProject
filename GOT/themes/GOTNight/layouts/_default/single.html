@@ -47,28 +47,21 @@
 	This battle is happened in {{ .Params.year }} and was located in {{ .Params.location }}.<br>
 	<br>
 	<br>
-	Other details about {{ .Title }} battle:	
-					  
-					<h3>Attacker king:</h3>
-					{{ $t := $.Site.GetPage .Params.attacker_king }}  					
-					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ .Params.attacker_king }}/'>{{ $t.Title }}</a></p>
-					{{ $t := $.Site.GetPage .Params.defender_king }}  					
+	Other details about {{ .Title }} battle:		
+					<h3>Attacker king:</h3> 
+					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.attacker_king " " }}/'>{{ .Params.attacker_king }}</a></p>
 					<h3>Defender king:</h3> 
-					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ .Params.defender_king }}/'>{{ $t.Title }}</a></p>
-					{{ $t := $.Site.GetPage .Params.attacker_principal }}  					
+					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.defender_king " " }}/'>{{ .Params.defender_king }}</a></p>
 					<h3>Attacker principal:</h3> 
-					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ .Params.attacker_principal }}/'>{{ $t.Title }}</a></p>
-					{{ $t := $.Site.GetPage .Params.defender_principal }}  					
+					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.attacker_principal " " }}/'>{{ .Params.attacker_principal }}</a></p>
 					<h3>Defender principal:</h3> 
-					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ .Params.defender_principal }}/'>{{ $t.Title }}</a></p>
+					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.defender_principal " " }}/'>{{ .Params.defender_principal }}</a></p>
 					<h3>Battle type:</h3> 
 					<p>{{ .Params.battle_type }}</p>
-					{{ $t := $.Site.GetPage .Params.attacker_commander }}  					
 					<h3>Attacker commander:</h3> 
-					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ .Params.attacker_commander }}/'>{{ $t.Title }}</a></p>
-					{{ $t := $.Site.GetPage .Params.defender_commander }}  					
+					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.attacker_commander " " }}/'>{{ .Params.attacker_commander }}</a></p>
 					<h3>Defender commander:</h3> 
-					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ .Params.defender_commander }}/'>{{ $t.Title }}</a></p>
+					<p style="color:blue;"><a href='{{ absURL "/character/" }}{{ trim .Params.defender_commander " " }}/'>{{ .Params.defender_commander }}</a></p>
 	</p>		
 	  <article class='post_content'>
 		{{- .Content }}
